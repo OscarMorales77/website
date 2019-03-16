@@ -30,8 +30,8 @@
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Oscar Morales</a>
+    <div class="container" id="navBar">
+      <a class="navbar-brand2" id="test" href="#">Oscar Morales</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,17 +39,17 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#objective">Objective</a>
+            <a class="nav-link" href="#objective" id="t1">Objective</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Profile</a>
+            <a class="nav-link" href="#profile" id="t2">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills" id="t3">Skills</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects" id="t4">Projects</a>
           </li>
         </ul>
       </div>
@@ -70,7 +70,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="profile">
       <div class="row align-items-center">
         <div class="col-md-10 col-md-offset-1">
           <div class="p-5">
@@ -87,7 +87,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="skills">
       <div class="row align-items-center">
         <div class="col-md-10 col-md-offset-1">
           <div class="p-5">
@@ -104,7 +104,7 @@
 
   </header>
 
-  <div class="container">
+  <div class="container" id="projects">
     <div class="row align-items-center">
       <div class="col-md-10 col-md-offset-1">
 
@@ -120,16 +120,18 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded" src="img/book.jpg" alt="">
-            <img class="img-fluid rounded" src="img/book2.jpg" alt="">
-
+            <a href="http://35.188.176.181/"> <img class="img-fluid rounded" src="img/book.jpg" alt=""></a>
+            <a href="http://35.188.176.181/"><img class="img-fluid rounded" src="img/book2.jpg" alt=""></a>
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h5>Book Reviews </h5>
+            <a href="http://35.188.176.181/" class="links">
+              <h5>Book Reviews </h5>
+            </a>
             <p>Python, Flask, Bootstrap, HTML, CSS, PostgreSQL, SQLAlchemy, JSON </p>
-            <p><strong>Deployment: </strong> Linux Server –Nginx and Gunicorn </p>
+            <p><strong>Deployment: </strong> Linux Server – Nginx and Gunicorn &emsp; <a href="http://35.188.176.181/" class="links"><i
+                  class="fas fa-link">Link</i></a> </p>
             <p>A book review website similar in spirit to Goodreads. Users are able to register with a username and
               password. Once registered, a user can view or leave reviews on a book. A user can query books in the
               database by tittle, author, or ISBN. The app also uses a third-party API to pull in ratings for query
@@ -145,15 +147,18 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="p-5">
-            <img class="img-fluid rounded" src="img/chat.jpg" alt="">
-            <img class="img-fluid rounded" src="img/chat2.jpg" alt="">
+            <a href="http://35.193.198.24/"><img class="img-fluid rounded" src="img/chat.jpg" alt=""></a>
+            <a href="http://35.193.198.24/"><img class="img-fluid rounded" src="img/chat2.jpg" alt=""></a>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="p-5">
-            <h5>Chat by OM </h5>
+            <a href="http://35.193.198.24/" class="links">
+              <h5>Chat by OM </h5>
+            </a>
             <p>Python, JavaScript, Flask, Bootstrap, HTML, CSS, Handlebars, Ajax, Socket.IO </p>
-            <p><strong>Deployment: </strong> Linux Server –Nginx and Gunicorn </p>
+            <p><strong>Deployment: </strong> Linux Server – Nginx and Gunicorn &emsp; <a href="http://35.193.198.24/" class="links"><i
+                  class="fas fa-link">Link</i></a> </p>
             <p>A server-side JS driven online instant messaging service web application. Users are able to create a
               display name, join or create a chatroom. Users have to ability to either send a message to a private user
               or to all users in a chatroom. Using localStorage the application remembers the username and last visited
@@ -169,16 +174,21 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded" src="img/e1.jpg" alt="">
-            <img class="img-fluid rounded" src="img/e2.jpg" alt="">
-            <img class="img-fluid rounded" src="img/e3.jpg" alt="">
+            <a href="http://35.192.112.224/"><img class="img-fluid rounded" src="img/e1.jpg" alt=""></a>
+            <a href="http://35.192.112.224/"><img class="img-fluid rounded" src="img/e2.jpg" alt=""></a>
+            <a href="http://35.192.112.224/"><img class="img-fluid rounded" src="img/e3.jpg" alt=""></a>
+
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h5>Ecommerce Pizza </h5>
+            <a href="http://35.192.112.224/" class="links">
+              <h5>Ecommerce Pizza </h5>
+            </a>
+
             <p>Python, Django, JavaScript, Bootstrap, HTML, CSS, Handlebars, Ajax, SQL, ORM, Stripe API </p>
-            <p><strong>Deployment: </strong>Linux Server – Apache and WSGI </p>
+            <p><strong>Deployment: </strong>Linux Server – Apache and WSGI &emsp; <a href="http://35.192.112.224/" class="links"><i
+                  class="fas fa-link">Link</i></a> </p>
             <p> An ecommerce website that handles a pizza restaurant’s online orders. Users are able to register, browse
               menu items, and place online orders; user-orders are place into a shopping cart where they can be updated,
               modified, and saved. The Stripe API was used to handle credit card payments. Object-relational mapping
@@ -201,13 +211,13 @@
             <h5>Contact</h5>
             <ul class="list-inline social-buttons">
 
-              <li class="list-inline-item"><a href="https://linkedin.com/in/allanbreyes" target="_blank"><i
+              <li class="list-inline-item"><a href="https://twitter.com/Oscar_Morales77" target="_blank"><i
                     class="fab fa-twitter fa-2x"></i></a></li>
 
-              <li class="list-inline-item"><a href="https://twitter.com/allanbreyes" target="_blank"> <i
+              <li class="list-inline-item"><a href="https://github.com/OscarMorales77" target="_blank"> <i
                     class="fab fa-github fa-2x"></i> </a></li>
 
-              <li class="list-inline-item"><a href="https://github.com/allanbreyes" target="_blank"> <i
+              <li class="list-inline-item"><a href="mailto:oscarmorales248@utexas.edu" target="_blank"> <i
                     class="fas fa-envelope-open fa-2x"></i> </a></li>
 
             </ul>
@@ -217,7 +227,8 @@
         <div class="col">
           <div class="m-0 text-center text-white small">
             <h5>Resume</h5>
-            <a href=""><i class="fas fa-file fa-2x"></i></a>
+            <a href="https://drive.google.com/file/d/1btUt7qVRNshZYshEFnCdSqkqARCEbQ02/view?usp=sharing"><i
+                class="fas fa-file fa-2x"></i></a>
           </div>
         </div>
 
